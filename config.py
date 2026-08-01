@@ -8,9 +8,6 @@ inference always agree on image size, class order, and preprocessing.
 
 import os
 
-# ---------------------------------------------------------------------------
-# Paths — update BASE_DIR to wherever your dataset actually lives
-# ---------------------------------------------------------------------------
 BASE_DIR = r"C:/Users/pawan/Downloads/FER/deepfer/archive-3/archive-3"
 
 TRAIN_DIR = os.path.join(BASE_DIR, "train")
